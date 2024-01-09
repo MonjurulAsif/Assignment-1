@@ -252,9 +252,7 @@ span {
 
 }
 
-.last {
-    /* margin-left: 70px; */
-}
+
 
 .upor h4 {
     color: #F00;
@@ -483,12 +481,14 @@ span {
 
 
 }
-.form1{
+
+.form1 {
     padding-top: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 
 .form1 .textt {
@@ -507,14 +507,77 @@ span {
     padding: 15px 28px;
     color: white;
 }
-.footer{
+
+/* footer section start */
+
+.footer {
     margin-top: 50px;
     background: #070211;
     color: white;
 }
-.fist-part{
+
+footer hr {
+    margin: 30px;
+    background: rgba(23, 23, 23, 0.15);
+    background-color: #4b4a4a;
+    width: 1320px;
+    height: 0px;
+}
+
+.fist-part {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+
+.left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.right p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.image-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 64px;
+    margin: 0 auto;
+
+}
+
+.sesh {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom:  80px;
+}
+
+.sesh-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.sesh-right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+
 }
