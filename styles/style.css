@@ -33,14 +33,19 @@ body {
 }
 
 .first-banner {
-    background-image: url('../resources/Bannerimg.png');
+
     border-radius: 16px;
-    background-color: linear-gradient(180deg, #0b080a 0%, #8a8a8b 100%);
-    color: #070211, #07021100;
-    opacity: 30;
+    background-image: url("../resources/Bannerimg.png"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    width: 1280px;
+    height: 600px;
+    opacity: 1;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
+
 }
+
 
 /* off section start */
 .of {
@@ -87,8 +92,6 @@ body {
 
 /* welcome section start */
 .welcome-section {
-    background-image: url('../resources/Vectorrr.png');
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -96,6 +99,8 @@ body {
     justify-content: space-between;
     border-radius: 5px;
     background-size: cover;
+    background-image: url("../resources/Vectorrr.png"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
 
 }
 
@@ -133,7 +138,7 @@ body {
 }
 
 .button-join {
-    text-align: center;
+    color: white;
     font-family: Inter;
     font-size: 17px;
     font-style: normal;
@@ -192,6 +197,7 @@ span {
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 .fast {
@@ -231,9 +237,10 @@ span {
 }
 
 .middle {
-    
+
     border-radius: 50%;
     border: 15px solid #F00;
+    margin-right: -10px;
 }
 
 .middle img {
@@ -242,18 +249,24 @@ span {
     flex-shrink: 0;
     margin: 20px;
 
+
+}
+
+.last {
+    /* margin-left: 70px; */
 }
 
 .upor h4 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    margin-bottom: 0px;
+
 }
 
 .upor p {
+    margin-top: 20px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -262,4 +275,246 @@ span {
     line-height: 32px;
     /* 160% */
     width: 370px;
+}
+
+/* functional section star */
+.text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.text h2 {
+    margin-top: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 61px;
+    font-weight: 900;
+    margin-bottom: 28px;
+
+}
+
+.text h2 .span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    max-width: 1060px;
+    height: 96px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.chobigula {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: center;
+}
+
+.chobigula .chobi3 {
+    background-position: bottom right;
+
+}
+
+.chobi2 img {
+
+    height: 130px;
+    width: 130px;
+    position: relative;
+    margin-right: -60px;
+}
+
+.chobi3 img {
+
+    height: 200px;
+    width: 200px;
+    margin-bottom: -5px;
+}
+
+.chobi1 img {
+
+    height: 300px;
+    width: 300px;
+    margin-bottom: -150px;
+    margin-right: 150px;
+    position: relative;
+}
+
+.chobi4 img {
+    height: 120px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+/* .functional{
+    margin: 0 auto;
+} */
+
+.chobi {
+    margin: 0 auto;
+
+}
+
+/* gift section start */
+.gift {
+    margin-top: 0px;
+}
+
+.gift-lal {
+    color: #F00;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+}
+
+.gift-tittle {
+    margin-top: 10px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.gift-des {
+    margin-top: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 890pz;
+}
+
+.first-chobi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.first-chobi img {
+    margin-bottom: 0px;
+
+}
+
+.first-chobi img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.last-chobi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-chobi img {
+    margin-top: 24px;
+}
+
+.last-chobi img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* subscribe section star */
+.subscribe {
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.image-sub img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    margin-bottom: -20px;
+}
+
+.sub-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: -30px;
+
+}
+
+.sub-pera {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 820px;
+    margin: 0 auto;
+
+
+}
+.form1{
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form1 .textt {
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    padding: 15px 28px;
+
+}
+
+.form1 .btnnn {
+    margin-left: -20px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 15px 28px;
+    color: white;
+}
+.footer{
+    margin-top: 50px;
+    background: #070211;
+    color: white;
+}
+.fist-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
