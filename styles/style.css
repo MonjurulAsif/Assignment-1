@@ -383,7 +383,7 @@ span {
 .gift-lal {
     color: #F00;
     font-family: Inter;
-    font-size: 19px;
+    font-size: 34px;
     font-weight: 500;
     margin-bottom: 0px;
 
@@ -393,7 +393,7 @@ span {
     margin-top: 10px;
     color: #070211;
     font-family: Merriweather;
-    font-size: 36px;
+    font-size: 52px;
     font-weight: 900;
     text-transform: capitalize;
     margin-bottom: 10px;
@@ -403,17 +403,17 @@ span {
     margin-top: 0px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 15px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    width: 890pz;
+    width: 890px;
 }
 
 .first-chobi {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -431,7 +431,7 @@ span {
 .last-chobi {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .last-chobi img {
@@ -518,9 +518,9 @@ span {
 
 footer hr {
     margin: 30px;
-    background: rgba(23, 23, 23, 0.15);
-    background-color: #4b4a4a;
-    width: 1320px;
+    background-color:rgba(255, 255, 255, 0.15);
+    color: #4b4a4a;
+    width: 1050px;
     height: 0px;
     margin: 0 auto;
 }
@@ -559,6 +559,9 @@ footer hr {
     padding-top: 40px;
     padding-bottom: 40px;
 
+}
+.image-icon img{
+    padding-right: 24px;
 }
 
 .sesh {
